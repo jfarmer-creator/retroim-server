@@ -1,0 +1,14 @@
+{
+  "name": "retro-messenger-server",
+  "version": "1.0.0",
+  "description": "RetroIM server - handles users, rooms, and messaging",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.8.3"
+  }
+}
